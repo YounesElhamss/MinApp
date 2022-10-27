@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(9, 81, 139);
+}
+html {
+    height: 100%;
+}
+body { 
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(#b9d6e5, #1a5aae);
+}
