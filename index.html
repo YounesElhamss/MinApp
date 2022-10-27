@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json"/>
+    <script src="sidenav.js"></script>
     <!-- ios support -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -12,9 +13,22 @@
     <meta name="theme-color" content="#00000">
 </head>
 <body>
-    <center>
-        <h1>Dhikr</h1>
-    </center>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <h2><!--Collapsed Sidebar--></h2>
+        <p><!--Content..--></p>
+      </div>
+        <center><h1>Dhikr Påmindelser</h1></center>
+
+      
 </body>
 </html>
 
