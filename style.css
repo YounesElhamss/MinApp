@@ -41,7 +41,7 @@ body {
   .sidebar__link {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 2.00rem;
+    font-size: 4.00rem;
     color: #ffffff;
     font-family: sans-serif;
     /*font-weight: bold;*/
@@ -69,6 +69,7 @@ body {
   /* Position and style the close button (top right corner) */
   .sidebar .closebtn {
     position: absolute;
+    color: white;
     top: 0;
     right: 25px;
     font-size: 36px;
@@ -77,7 +78,7 @@ body {
   
   /* The button used to open the sidebar */
   .openbtn {
-    font-size: 50px;
+    font-size: 100px;
     cursor: pointer;
     background-color: rgba(55, 61, 182, 0);
     color: rgb(235, 236, 243);
