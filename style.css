@@ -43,7 +43,7 @@ body {
   .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     color: #3e67ed;
     display: block;
     transition: 0.3s;
@@ -65,7 +65,7 @@ body {
   
   /* The button used to open the sidebar */
   .openbtn {
-    font-size: 15px;
+    font-size: 30px;
     cursor: pointer;
     background-color: rgba(55, 61, 182, 0);
     color: rgb(235, 236, 243);
