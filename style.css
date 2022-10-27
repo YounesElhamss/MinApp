@@ -11,47 +11,59 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: linear-gradient(#1a5aae, #b9d6e5);
+    background: linear-gradient(#262728, #b9d6e5);
 }
 
 /*side nav*/
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
     position: fixed;
-    height: 100%;
     overflow: auto;
   }
   
   /* Sidebar links */
   .sidebar {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 200; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: rgb(255, 254, 254); /* Black*/
+    /*border-right: 2px solid rgb(230, 222, 222);*/
+    background-color: rgb(37, 36, 36); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    /*padding-top: 60px;  Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
   }
   
   /* The sidebar links */
-  .sidebar a {
+  .sidebar__link {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 40px;
-    color: #3e67ed;
-    display: block;
+    font-size: 2.00rem;
+    color: #ffffff;
+    font-family: sans-serif;
+    /*font-weight: bold;*/
+    display: flex;
+    align-items: center;
     transition: 0.3s;
+    padding: 12px;
+    background:rgb(40, 40, 40);
+    border-bottom: 0.6px solid rgb(39, 38, 38);
+  }
+
+  .sidebar__link .material-icons {
+    margin-right: 12px;
+  }
+
+  .sidebar__link:active {
+    background: rgb(14, 13, 13);
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-    color: #63a6f8;
+    /*color: #63a6f8;*/
   }
   
   /* Position and style the close button (top right corner) */
@@ -74,7 +86,7 @@ body {
   }
   
   .openbtn:hover {
-    background-color: rgb(12, 53, 110);
+    background-color: rgb(19, 14, 14);
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
