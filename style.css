@@ -1,5 +1,7 @@
 h1 {
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
 }
 
 h3 {
@@ -19,6 +21,47 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: linear-gradient(#262728, #b9d6e5);
+}
+
+#container {
+    height: 100px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#container-button {
+    padding-top: 10px;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+   
+}
+
+#number {
+    height: 25px;
+    width: 25px;
+    color: white;
+    border: 10px;
+    border-radius: 1px solid;
+    font-size: 2rem;
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#increment {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px white;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
    /*side nav*/
