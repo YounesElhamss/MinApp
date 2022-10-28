@@ -1,12 +1,12 @@
 h1 {
-    color: white;
+    color: rgb(147, 147, 147);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2rem;
   
 }
 
 h3 {
-    color: white;
+    color: rgb(147, 147, 147);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
     border-bottom: 1px solid rgb(61, 58, 58);
@@ -27,9 +27,15 @@ body {
 }
 
 #container {
-    height: 50px;
-    width: 300px;
-    margin: auto;
+    padding: 1%;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 170px;
+    background-color: rgb(142, 137, 137);
+    border-radius: 20px;
+    display:inline-block; /*så "antal:" og "1" står på samme række*/
+    padding-left: 10px;
+    margin-left: 270px;
 }
 
 #container-button {
@@ -38,14 +44,20 @@ body {
     width: 200px;
     border-radius: 10px;
     margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #number {
+    text-align: center;
     height: 25px;
     width: 25px;
-    color: white;
-    font-size: 2rem;
-    margin: 20px;
+    color: rgb(37, 36, 36);
+    font-size: 20px;
+    /*padding-left: 10px;*/
+    /*margin: 15px;*/
+    text-align: left;
+    display: inline;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -63,7 +75,7 @@ body {
 }
 
 #increment .material-icons {
-    padding-top: 90px;
+    padding-top: 30px;
     font-size: 150px;
     color: rgb(135, 135, 143);
 }
@@ -77,18 +89,20 @@ body {
 }
 
 #reset {
-    height: 50px;
+    height: 30px;
     width: 100px;
     border-radius: 20px;
-    margin: 25%;
+    /*margin: 25%;*/
     border: 0px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
     text-align: center;
     cursor: pointer;
-    background-color:rgb(61, 58, 58);
-    color: white;
+    background-color: rgb(37, 36, 36);
+    color: rgb(147, 147, 147);
+    display: inline-block;
+    
 }
 
 #reset:active {
@@ -97,7 +111,7 @@ body {
 }
 
 #number {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
    /*side nav*/
@@ -128,7 +142,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 1rem;
-    color: #ffffff;
+    color: rgb(147, 147, 147);
     display: flex;
     transition: 0.3s;
   }
@@ -136,6 +150,7 @@ body {
   .sidebar__link .material-icons {
     margin-right: 12px;
     font-size: 2rem;
+    color: rgb(147, 147, 147);
   }
 
   .sidebar__link:active {
@@ -163,7 +178,8 @@ body {
     cursor: pointer;
     background-color: rgba(55, 61, 182, 0);
     color: rgb(235, 236, 243);
-    padding-left: ;
+    margin-left: 0px;
+    padding-left: 0px;
     border: none;
   }
   
