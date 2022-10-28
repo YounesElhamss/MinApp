@@ -4,7 +4,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json"/>
-    <script src="sidenav.js"></script>
+    <script src="sidenav.js" defer></script>
+    <script src="buttonCounter.js" defer></script>
     <!-- ios support -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,12 +37,12 @@
       
 
       <div id="container">
-        <div id="number">Antal: 0</div>
+        <div id="number">Antal:</div>
       </div>
 
       <div id="container-button">
-        <button id="increment">+</button>
-        <button id="reset">Reset</button>
+        <button id="increment"></button>
+        <button id="reset">Nulstil</button>
     </div>
 </body>
 </html>
