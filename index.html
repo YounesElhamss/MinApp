@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="manifest.json"/>
+    <link rel="manifest" href="manifest.json" />
     <script src="sidenav.js" defer></script>
     <script src="buttonCounter.js" defer></script>
     <!-- ios support -->
@@ -14,42 +15,46 @@
     <meta name="msapplication-TileColor" content="#00000">
     <meta name="theme-color" content="#00000">
     <!--for at den ikke zoomer-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
+
 <body>
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        
-        <center><h3>Adhkar</h3></center>
-        
 
-        <a href="#" class="sidebar__link">
+        <center>
+            <h3>Adhkar</h3>
+        </center>
+
+        <a href="morgen.html" class="sidebar__link">
             <span class="material-icons">light_mode</span>Morgen</a>
-        
+
         <a href="#" class="sidebar__link">
             <span class="material-icons">dark_mode</span>Aften</a>
-
-      </div>
-      
-      <div id="main">
+    </div>
+    <div id="main">
         <button class="openbtn" onclick="openNav()">&#9776;</button>
-      </div>
-        
-      <center><h1>Dhikr tæller</h1></center>
-      
-    <center><div class="big-container">
-      <div id="container">
-        <div id="number">Antal:</div>
-      </div>
-      <button id="reset">Nulstil</button>
-    </div></center>
+    </div>
 
-      <div id="container-button">
+    <center>
+        <h1>Dhikr tæller</h1>
+    </center>
+
+    <center>
+        <div class="big-container">
+            <div id="container">
+                <div id="number">Antal:</div>
+            </div>
+            <button id="reset">Nulstil</button>
+        </div>
+    </center>
+
+    <div id="container-button">
         <button id="increment">
             <span class="material-icons">touch_app</span>
         </button>
 
-      </div>
+    </div>
 </body>
-</html>
 
+</html>

@@ -85,9 +85,9 @@ body {
     background-color:rgb(30, 30, 33);
 }
 
-#increment:active {
+/*#increment:active {
     background-color: rgb(2, 2, 2);
-}
+}*/
 
 #reset {
     height: 30px;
@@ -197,4 +197,13 @@ body {
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+  }
+
+  /* morgen.html */
+
+  .dhikr-container {
+    margin: auto;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 300px;
   }
