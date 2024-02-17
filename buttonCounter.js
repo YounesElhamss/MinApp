@@ -13,13 +13,13 @@ function validateForm() {
     let salaryPerKm = (commission / distance);
     salaryPerKm = salaryPerKm.toFixed(2);
 
-    let profitPerKm = (gasForDelivery - salaryPerKm);
+    let profitPerKm = (salaryPerKm - gasForDelivery);
     profitPerKm = profitPerKm.toFixed(2);
 
     if (profitPerKm > pricePerKm) {
         alert('Differencen er ' + profitPerKm + ' til din fordel.')
     } else {
-        alert('Differencen er -' + profitPerKm);
+        alert('Differencen er ' + profitPerKm);
     }
     
     gasPrice = 0;

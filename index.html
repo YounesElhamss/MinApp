@@ -19,42 +19,56 @@
 </head>
 
 <body>
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div>
+    <form name="form1" onsubmit="validateForm()">
 
-        <center>
-            <h3>Adhkar</h3>
-        </center>
+        <label for="gas-price">Gas price per liter:</label><br>
+        <input id="gas-price" name="gas-price" type="text"><br>
+       
+        <label for="km/l">Car km/l:</label><br>
+        <input id="km/l" name="km/l" type="text" ><br>
 
-        <a href="morgen.html" class="sidebar__link">
-            <span class="material-icons">light_mode</span>Morgen</a>
+        <label for="commission" require="0.00">Commission for delivery:</label><br>
+        <input id="commission" name="commission" type="text"><br>
+       
+        <label for="distance" require="0.00">Total delivery distance:</label><br>
+        <input id="distance" name="distance" type="text"><br>
 
-        <a href="#" class="sidebar__link">
-            <span class="material-icons">dark_mode</span>Aften</a>
-    </div>
-    <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776;</button>
-    </div>
+        <input type="submit" name="submit" id="submit" value="submit" class="button" /> 
+    </form>
+</div>
 
-    <center>
-        <h1>Dhikr tæller</h1>
-    </center>
+<style>
+body {
+    margin:50px 0px; padding:0px;
+    text-align:center;
+}
 
-    <center>
-        <div class="big-container">
-            <div id="container">
-                <div id="number">Antal:</div>
-            </div>
-            <button id="reset">Nulstil</button>
-        </div>
-    </center>
+form {
+    display: inline-block;
+}
 
-    <div id="container-button">
-        <button id="increment">
-            <span class="material-icons">touch_app</span>
-        </button>
+div {
+    border-radius: 5px;
+    border: 1px;
+    border-color: white; 
+}
+input {
+    /*display: block;*/
+    /*width: 150px;
+    float: left;*/
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
 
-    </div>
+label {
+    
+    color: white;
+    font-family: sans-serif;
+}
+
+
+</style>
 </body>
 
 </html>
